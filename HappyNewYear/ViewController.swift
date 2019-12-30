@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     let screenScrollView: AboveAllScrollView = {
         let scrollView = AboveAllScrollView()
         scrollView.backgroundColor = .white
+        scrollView.alwaysBounceHorizontal = false
+        scrollView.alwaysBounceVertical = false
         return scrollView
     }()
     
@@ -137,7 +139,6 @@ class ViewController: UIViewController {
         
         introView.runTimer()
         
-        
         UIView.animate(withDuration: 2, delay: 5, options: [], animations: {
             self.screenScrollView.contentOffset = CGPoint(x: 417, y: 938)
         })
@@ -182,9 +183,8 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 2, delay: 70, options: [], animations: {
             self.screenScrollView.contentOffset = CGPoint(x: 1251, y: 936)
         })
+        
         soundPlayer?.stop()
-//        lecturersView.runTimer()
-//        classView.runTimer()
     }
 
     func setupLayout() {
@@ -275,7 +275,7 @@ class ViewController: UIViewController {
     }
     
     func playSound() {
-        let path = Bundle.main.path(forResource: "HappyNewYearGuitar-SunghaJung_4fdng.mp3", ofType: nil)!
+        let path = Bundle.main.path(forResource: "HappyNewYearGuitarcover-SunghaJung-2865451.mp3", ofType: nil)!
         let url = URL(fileURLWithPath: path)
         
         do {

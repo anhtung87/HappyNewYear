@@ -31,7 +31,7 @@
 		6D38AE4823BA0D920095741F /* NewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38AE4723BA0D920095741F /* NewYearView.swift */; };
 		6D38AE4A23BA10630095741F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D38AE4923BA10630095741F /* Assets.xcassets */; };
 		6D38AE4C23BA38030095741F /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D38AE4B23BA38030095741F /* PlusView.swift */; };
-		6D38AE5023BA4A570095741F /* HappyNewYearGuitar-SunghaJung_4fdng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D38AE4F23BA4A570095741F /* HappyNewYearGuitar-SunghaJung_4fdng.mp3 */; };
+		6D38AE5323BA4DDE0095741F /* HappyNewYearGuitarcover-SunghaJung-2865451.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D38AE5523BA4DDE0095741F /* HappyNewYearGuitarcover-SunghaJung-2865451.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,7 @@
 		6D38AE4723BA0D920095741F /* NewYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearView.swift; sourceTree = "<group>"; };
 		6D38AE4923BA10630095741F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D38AE4B23BA38030095741F /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
-		6D38AE4F23BA4A570095741F /* HappyNewYearGuitar-SunghaJung_4fdng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HappyNewYearGuitar-SunghaJung_4fdng.mp3"; sourceTree = "<group>"; };
+		6D38AE5423BA4DDE0095741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Base; path = "Base.lproj/HappyNewYearGuitarcover-SunghaJung-2865451.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				6D38AE1923B66C840095741F /* LaunchScreen.storyboard */,
 				6D38AE4923BA10630095741F /* Assets.xcassets */,
 				6D38AE1C23B66C840095741F /* Info.plist */,
-				6D38AE4F23BA4A570095741F /* HappyNewYearGuitar-SunghaJung_4fdng.mp3 */,
+				6D38AE5523BA4DDE0095741F /* HappyNewYearGuitarcover-SunghaJung-2865451.mp3 */,
 			);
 			path = HappyNewYear;
 			sourceTree = "<group>";
@@ -190,10 +190,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D38AE5323BA4DDE0095741F /* HappyNewYearGuitarcover-SunghaJung-2865451.mp3 in Resources */,
 				6D38AE1B23B66C840095741F /* LaunchScreen.storyboard in Resources */,
 				6D38AE4A23BA10630095741F /* Assets.xcassets in Resources */,
 				6D38AE1623B66C820095741F /* Main.storyboard in Resources */,
-				6D38AE5023BA4A570095741F /* HappyNewYearGuitar-SunghaJung_4fdng.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +245,14 @@
 				6D38AE1A23B66C840095741F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6D38AE5523BA4DDE0095741F /* HappyNewYearGuitarcover-SunghaJung-2865451.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D38AE5423BA4DDE0095741F /* Base */,
+			);
+			name = "HappyNewYearGuitarcover-SunghaJung-2865451.mp3";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
