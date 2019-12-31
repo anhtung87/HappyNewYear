@@ -140,7 +140,7 @@ class ViewController: UIViewController {
         introView.runTimer()
         
         UIView.animate(withDuration: 2, delay: 5, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 417, y: 938)
+            self.screenScrollView.contentOffset = CGPoint(x: 417, y: 943)
         })
         
         UIView.animate(withDuration: 2, delay: 7, options: [], animations: {
@@ -152,16 +152,16 @@ class ViewController: UIViewController {
         })
         
         UIView.animate(withDuration: 2, delay: 15, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 834, y: 1839)
+            self.screenScrollView.contentOffset = CGPoint(x: 834, y: 1842)
             self.classView.runTimer()
         })
         
         UIView.animate(withDuration: 2, delay: 22, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 417, y: 1839)
+            self.screenScrollView.contentOffset = CGPoint(x: 417, y: 1842)
         })
         
         UIView.animate(withDuration: 2, delay: 30, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 834, y: 938)
+            self.screenScrollView.contentOffset = CGPoint(x: 834, y: 943)
         })
         
         UIView.animate(withDuration: 2, delay: 38, options: [], animations: {
@@ -173,15 +173,15 @@ class ViewController: UIViewController {
         })
         
         UIView.animate(withDuration: 2, delay: 54, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 1668, y: 938)
+            self.screenScrollView.contentOffset = CGPoint(x: 1668, y: 943)
         })
         
         UIView.animate(withDuration: 2, delay: 62, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 1251, y: 1839)
+            self.screenScrollView.contentOffset = CGPoint(x: 1251, y: 1842)
         })
         
         UIView.animate(withDuration: 2, delay: 70, options: [], animations: {
-            self.screenScrollView.contentOffset = CGPoint(x: 1251, y: 936)
+            self.screenScrollView.contentOffset = CGPoint(x: 1251, y: 943)
         })
         
         soundPlayer?.stop()
